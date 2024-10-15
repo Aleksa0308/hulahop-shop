@@ -14,7 +14,7 @@ import InputComponent from "../../../components/InputComponent";
 import BoxFileInput from "../../../components/BoxFileInput";
 import { Col, Row } from "react-bootstrap";
 import { useFormik } from "formik";
-import { ACCESS_TOKEN, REST_URL_SERVER } from "../../../Utils/constant";
+import { ACCESS_TOKEN, REST_URL_SERVER } from "../../../utils/constant";
 import {
   commonAddUpdateQuery,
   commonGetQuery,

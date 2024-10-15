@@ -7,7 +7,7 @@ import { DashboardContainer } from "./styled";
 import { Col, Row } from "react-bootstrap";
 import { connect } from "react-redux";
 import { commonGetQuery } from "../../../utils/axiosInstance";
-import { ACCESS_TOKEN } from "../../../Utils/constant";
+import { ACCESS_TOKEN } from "../../../utils/constant";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
