@@ -1,4 +1,4 @@
-import { MailerModule } from 'src/providers/mailer/mailer.module';
+import { MailerModule } from '../providers/mailer/mailer.module';
 import { AboutPageSliderModule } from './about-page-slider/about-page-slider.module';
 import { AboutProductBottomBarImageModule } from './about-product-bottom-bar-image/about-product-bottom-bar-image.module';
 import { AboutProductDataModule } from './about-product-data/about-product-data.module';

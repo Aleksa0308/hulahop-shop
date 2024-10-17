@@ -6,7 +6,7 @@ import { AtStrategy, RtStrategy } from './strategies';
 import { UsersModule } from '../users/users.module';
 import { UsersService } from '../users/users.service';
 import { UserSessionModule } from '../user-session/user-session.module';
-import { MailerModule } from 'src/providers/mailer/mailer.module';
+import { MailerModule } from '../../providers/mailer/mailer.module';
 
 @Module({
   controllers: [AuthController],
