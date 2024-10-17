@@ -36,7 +36,7 @@ export class ImagesService extends AbstractService {
     if (!file) {
       throw new BadRequestException('Record does not exist');
     }
-    const path = join(process.cwd(), 'uploads');
+    const path = join(process.cwd(), 'tmp/uploads');
     return {
       path: path,
       fileName: file.name,
@@ -67,7 +67,7 @@ export class ImagesService extends AbstractService {
       if (!image) {
         throw new BadRequestException('Record does not exist');
       }
-      const path = join(process.cwd(), 'uploads', image.name);
+      const path = join(process.cwd(), 'tmp/uploads', image.name);
       if (fs.existsSync(path)) {
         fs.rmSync(path);
         const remove = await this.abstractRemove(id);

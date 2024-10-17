@@ -177,7 +177,7 @@ export class AssociateProductsService extends AbstractService {
       .map(() => Math.round(Math.random() * 16).toString(16))
       .join('');
     const filename = `${randomName}${extractBase64img.extensionName}`;
-    const path = `./uploads/${filename}`;
+    const path = `./tmp/uploads/${filename}`;
     fs.writeFile(path, extractBase64img.base64, 'base64', (err) => {
       if (err) {
         fs.rmSync(path, { recursive: true });
