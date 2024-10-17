@@ -7,21 +7,21 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { MaxLength, ValidateIf, IsInt, IsEnum } from 'class-validator';
-import { UserTypes } from 'src/commons/enum';
+import { UserTypes } from '../../../commons/enum';
 import { Images } from '../../images/entities/images.entity';
-import { AssociateProducts } from 'src/modules/associate-products/entities/associate-products.entity';
-import { AssociateUserDetails } from 'src/modules/associate-user-details/entities/associate-user-details.entity';
-import { AssociateWithdrawnRequest } from 'src/modules/associate-withdrawn-request/entities/associate-withdrawn-request.entity';
-import { Blogs } from 'src/modules/blogs/entities/blogs.entity';
-import { CartProducts } from 'src/modules/cart-products/entities/cart-products.entity';
-import { UserSession } from 'src/modules/user-session/entities/user-session.entity';
-import { StoreLayoutDetails } from 'src/modules/store-layout-details/entities/store-layout-details.entity';
-import { AssociateImages } from 'src/modules/associate-images/entities/associate-images.entity';
-import { UserAddresses } from 'src/modules/user-addresses/entities/user-addresses.entity';
+import { AssociateProducts } from '../../../modules/associate-products/entities/associate-products.entity';
+import { AssociateUserDetails } from '../../../modules/associate-user-details/entities/associate-user-details.entity';
+import { AssociateWithdrawnRequest } from '../../../modules/associate-withdrawn-request/entities/associate-withdrawn-request.entity';
+import { Blogs } from '../../../modules/blogs/entities/blogs.entity';
+import { CartProducts } from '../../../modules/cart-products/entities/cart-products.entity';
+import { UserSession } from '../../../modules/user-session/entities/user-session.entity';
+import { StoreLayoutDetails } from '../../../modules/store-layout-details/entities/store-layout-details.entity';
+import { AssociateImages } from '../../../modules/associate-images/entities/associate-images.entity';
+import { UserAddresses } from '../../../modules/user-addresses/entities/user-addresses.entity';
 import { Carts } from '../../carts/entities/carts.entity';
-import { WishList } from 'src/modules/wish-list/entities/wish-list.entity';
+import { WishList } from '../../../modules/wish-list/entities/wish-list.entity';
 import { ProductReview } from '../../product-review/entities/product-review.entity';
-import { Orders } from 'src/modules/orders/entities/orders.entity';
+import { Orders } from '../../../modules/orders/entities/orders.entity';
 
 @Entity('users', { schema: 'hulahop_dev' })
 export class Users {

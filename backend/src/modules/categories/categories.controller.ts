@@ -14,7 +14,7 @@ import { CategoriesService } from './categories.service';
 import { CreateCategoriesInput } from './dto/create-categories.input';
 import { UpdateCategoriesInput } from './dto/update-categories.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { SkipAuth } from '../../core/guards/auth-guard';
 @ApiTags('categories')

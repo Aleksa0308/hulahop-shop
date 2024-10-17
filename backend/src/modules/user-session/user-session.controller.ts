@@ -15,7 +15,7 @@ import { CreateUserSessionInput } from './dto/create-user-session.input';
 import { UpdateUserSessionInput } from './dto/update-user-session.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 @ApiTags('user_session')
 @ApiBearerAuth()
 @Controller('user_session')

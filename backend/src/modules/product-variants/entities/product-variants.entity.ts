@@ -8,11 +8,11 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { IsBoolean, MaxLength, ValidateIf, IsInt } from 'class-validator';
-import { Images } from 'src/modules/images/entities/images.entity';
-import { Sizes } from 'src/modules/sizes/entities/sizes.entity';
-import { Colors } from 'src/modules/colors/entities/colors.entity';
-import { Products } from 'src/modules/products/entities/products.entity';
-import { ProductSubVariants } from 'src/modules/product-sub-variants/entities/product-sub-variants.entity';
+import { Images } from '../../../modules/images/entities/images.entity';
+import { Sizes } from '../../../modules/sizes/entities/sizes.entity';
+import { Colors } from '../../../modules/colors/entities/colors.entity';
+import { Products } from '../../../modules/products/entities/products.entity';
+import { ProductSubVariants } from '../../../modules/product-sub-variants/entities/product-sub-variants.entity';
 import { CartProducts } from '../../cart-products/entities/cart-products.entity';
 import { OrderProducts } from '../../order-products/entities/order-products.entity';
 

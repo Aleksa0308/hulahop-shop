@@ -14,7 +14,7 @@ import { SizesService } from './sizes.service';
 import { CreateSizesInput } from './dto/create-sizes.input';
 import { UpdateSizesInput } from './dto/update-sizes.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 @ApiTags('sizes')
 @ApiBearerAuth()

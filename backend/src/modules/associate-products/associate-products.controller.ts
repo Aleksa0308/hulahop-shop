@@ -16,13 +16,13 @@ import { CreateAssociateProductsInput } from './dto/create-associate-products.in
 import { UpdateAssociateProductsInput } from './dto/update-associate-products.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import {
   UpdateAssociateBestSellingInput,
   UpdateAssociateIsApproveInput,
   UpdateAssociateIsVisibleOnSiteInput,
 } from './dto/update-associate-products-status.input';
-import { CurrentUser } from 'src/commons';
+import { CurrentUser } from '../../commons';
 import { CurrentUserDto } from '../auth/dto/current-user.dto';
 import { GetAssociateProductFilterInputDto } from './dto/get-associate-product-filter.input';
 import { SkipAuth } from '../../core/guards/auth-guard';

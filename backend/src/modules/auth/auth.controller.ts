@@ -17,7 +17,7 @@ import { CurrentUser } from '../../commons/decorator/current-user.decorator';
 import { SkipAuth } from '../../core/guards/auth-guard';
 import { ResetMyPasswordInput } from './dto/reset-my-password.input';
 import { SignupUserInput } from './dto/signup-user.input';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { ForgotPasswordInput } from './dto/forgot-password.input';
 import { ResetPasswordInput } from './dto/reset-password.input';

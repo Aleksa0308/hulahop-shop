@@ -15,7 +15,7 @@ import { ApiBearerAuth, ApiBody, ApiConsumes, ApiTags } from '@nestjs/swagger';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { extname } from 'path';
 import { diskStorage } from 'multer';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response, Request } from 'express';
 import * as fs from 'fs';
 import { SkipAuth } from '../../core/guards/auth-guard';

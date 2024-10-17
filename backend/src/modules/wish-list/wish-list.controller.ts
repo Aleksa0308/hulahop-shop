@@ -16,9 +16,9 @@ import { CreateWishListInput } from './dto/create-wish-list.input';
 import { UpdateWishListInput } from './dto/update-wish-list.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { CurrentUserDto } from '../auth/dto/current-user.dto';
-import { CurrentUser } from 'src/commons';
+import { CurrentUser } from '../../commons';
 
 @ApiTags('wishlist')
 @ApiBearerAuth()

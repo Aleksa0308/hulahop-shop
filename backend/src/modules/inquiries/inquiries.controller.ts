@@ -18,10 +18,10 @@ import {
 import { UpdateInquiriesInput } from './dto/update-inquiries.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { SkipAuth } from '../../core/guards/auth-guard';
 import { UsersService } from '../users/users.service';
-import { MailerService } from 'src/providers/mailer/mailer.service';
+import { MailerService } from '../../providers/mailer/mailer.service';
 
 @ApiTags('inquiries')
 @ApiBearerAuth()

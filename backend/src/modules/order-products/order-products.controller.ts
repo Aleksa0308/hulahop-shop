@@ -14,7 +14,7 @@ import { OrderProductsService } from './order-products.service';
 import { CreateOrderProductsInput } from './dto/create-order-products.input';
 import { UpdateOrderProductsInput } from './dto/update-order-products.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 
 @ApiTags('order_products')

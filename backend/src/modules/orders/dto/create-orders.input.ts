@@ -1,7 +1,7 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 import { IsIn, IsOptional, MaxLength, ValidateNested } from 'class-validator';
-import { ORDER_STATUS } from 'src/commons/constant';
+import { ORDER_STATUS } from '../../../commons/constant';
 import { IsNull } from 'typeorm';
 
 export class BaseClass {

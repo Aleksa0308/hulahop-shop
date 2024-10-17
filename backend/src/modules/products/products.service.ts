@@ -6,7 +6,7 @@ import { CreateProductsInput } from './dto/create-products.input';
 import { UpdateProductsInput } from './dto/update-products.input';
 import { Like, UpdateResult } from 'typeorm';
 import { ProductVariantsService } from '../product-variants/product-variants.service';
-import { dataSource } from 'src/core/data-source';
+import { dataSource } from '../../core/data-source';
 import { ProductVariants } from '../product-variants/entities/product-variants.entity';
 import { ProductSubVariants } from '../product-sub-variants/entities/product-sub-variants.entity';
 import { filterInputDto } from './dto/filter-input.dto';

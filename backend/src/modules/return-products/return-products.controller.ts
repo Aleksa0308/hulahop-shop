@@ -15,7 +15,7 @@ import { CreateReturnProductsInput } from './dto/create-return-products.input';
 import { UpdateReturnProductsInput } from './dto/update-return-products.input';
 import { ApiBasicAuth, ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 
 @ApiTags('return_products')
 @ApiBearerAuth()

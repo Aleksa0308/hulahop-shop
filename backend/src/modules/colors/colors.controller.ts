@@ -15,7 +15,7 @@ import { CreateColorsInput } from './dto/create-colors.input';
 import { UpdateColorsInput } from './dto/update-colors.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 
 @ApiTags('colors')
 @ApiBearerAuth()

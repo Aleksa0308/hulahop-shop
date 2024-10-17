@@ -14,9 +14,9 @@ import { AssociateWithdrawnRequestService } from './associate-withdrawn-request.
 import { CreateAssociateWithdrawnRequestInput } from './dto/create-associate-withdrawn-request.input';
 import { UpdateAssociateWithdrawnRequestInput } from './dto/update-associate-withdrawn-request.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
-import { CurrentUser } from 'src/commons';
+import { CurrentUser } from '../../commons';
 import { CurrentUserDto } from '../auth/dto/current-user.dto';
 
 @ApiTags('associate_withdrawn_request')

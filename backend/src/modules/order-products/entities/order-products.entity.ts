@@ -6,8 +6,8 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { ValidateIf, IsInt } from 'class-validator';
-import { Orders } from 'src/modules/orders/entities/orders.entity';
-import { AssociateProducts } from 'src/modules/associate-products/entities/associate-products.entity';
+import { Orders } from '../../../modules/orders/entities/orders.entity';
+import { AssociateProducts } from '../../../modules/associate-products/entities/associate-products.entity';
 import { ProductVariants } from '../../product-variants/entities/product-variants.entity';
 import { ProductSubVariants } from '../../product-sub-variants/entities/product-sub-variants.entity';
 

@@ -8,8 +8,8 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { MaxLength, ValidateIf } from 'class-validator';
-import { Images } from 'src/modules/images/entities/images.entity';
-import { SubCategories } from 'src/modules/sub-categories/entities/sub-categories.entity';
+import { Images } from '../../../modules/images/entities/images.entity';
+import { SubCategories } from '../../../modules/sub-categories/entities/sub-categories.entity';
 import { Products } from '../../products/entities/products.entity';
 
 @Entity('categories', { schema: 'hulahop_dev' })

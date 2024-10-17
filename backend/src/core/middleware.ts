@@ -7,7 +7,7 @@ import {
 } from '@nestjs/common';
 import { isArray } from 'class-validator';
 import { Request, Response, NextFunction } from 'express';
-import { ErrorType } from 'src/commons/enum';
+import { ErrorType } from '../commons/enum';
 
 @Catch()
 export class HttpExceptionFilter implements ExceptionFilter {

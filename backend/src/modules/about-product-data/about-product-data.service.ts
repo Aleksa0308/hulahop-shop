@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { AbstractService } from 'src/commons';
+import { AbstractService } from '../../commons';
 import { aboutProductDataRepository } from './repository/about_product_data.repository';
 import { CreateAboutProductDataInput } from './dto/create-about-product-data.dto';
 import { AboutProductData } from './entities/about-product-data.entity';
@@ -7,7 +7,7 @@ import { UpdateAboutProductDataInput } from './dto/update-about-product-data.dto
 import { AboutProductSizeChartImageService } from '../about-product-size-chart-image/about-product-size-chart-image.service';
 import { AboutProductTopBarImageService } from '../about-product-top-bar-image/about-product-top-bar-image.service';
 import { AboutProductSizeChartImage } from '../about-product-size-chart-image/entities/about-product-size-chart-image.entity';
-import { dataSource } from 'src/core/data-source';
+import { dataSource } from '../../core/data-source';
 import { AboutProductTopBarImage } from '../about-product-top-bar-image/entities/about-product-top-bar-image.entity';
 import { AboutProductBottomBarImage } from '../about-product-bottom-bar-image/entities/about-product-bottom-bar-image.entity';
 

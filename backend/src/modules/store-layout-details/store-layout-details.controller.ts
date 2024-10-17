@@ -15,7 +15,7 @@ import { StoreLayoutDetailsService } from './store-layout-details.service';
 import { CreateStoreLayoutDetailsInput } from './dto/create-store-layout-details.input';
 import { UpdateStoreLayoutDetailsInput } from './dto/update-store-layout-details.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { SkipAuth } from '../../core/guards/auth-guard';
 

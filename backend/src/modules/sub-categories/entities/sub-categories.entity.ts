@@ -9,8 +9,8 @@ import {
 } from 'typeorm';
 
 import { IsBoolean, MaxLength, ValidateIf, IsInt } from 'class-validator';
-import { Images } from 'src/modules/images/entities/images.entity';
-import { Categories } from 'src/modules/categories/entities/categories.entity';
+import { Images } from '../../../modules/images/entities/images.entity';
+import { Categories } from '../../../modules/categories/entities/categories.entity';
 import { Products } from '../../products/entities/products.entity';
 
 @Entity('sub_categories', { schema: 'hulahop_dev' })

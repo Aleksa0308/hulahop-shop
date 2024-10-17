@@ -16,10 +16,10 @@ import { UsersService } from './users.service';
 import { BecomeSellerInput, CreateUsersInput } from './dto/create-users.input';
 import { UpdateUsersInput } from './dto/update-users.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response, Request } from 'express';
 import { UpdatePasswordInput } from './dto/update-password.dto';
-import { CurrentUser } from 'src/commons';
+import { CurrentUser } from '../../commons';
 import { CurrentUserDto } from '../auth/dto/current-user.dto';
 
 @ApiTags('users')

@@ -6,9 +6,9 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { MaxLength, ValidateIf, IsInt } from 'class-validator';
-import { Users } from 'src/modules/users/entities/users.entity';
-import { Images } from 'src/modules/images/entities/images.entity';
-import { StoreLayoutDetails } from 'src/modules/store-layout-details/entities/store-layout-details.entity';
+import { Users } from '../../../modules/users/entities/users.entity';
+import { Images } from '../../../modules/images/entities/images.entity';
+import { StoreLayoutDetails } from '../../../modules/store-layout-details/entities/store-layout-details.entity';
 
 @Entity('associate_blogs', { schema: 'hulahop_dev' })
 export class AssociateBlogs {

@@ -10,7 +10,7 @@ import { Users } from './entities/users.entity';
 import { BecomeSellerInput, CreateUsersInput } from './dto/create-users.input';
 import { UpdateUsersInput } from './dto/update-users.input';
 import { UpdatePasswordInput } from './dto/update-password.dto';
-import { comparePassword, generatePassword } from 'src/commons';
+import { comparePassword, generatePassword } from '../../commons';
 import { UserTypes } from '../../commons/enum';
 
 @Injectable()

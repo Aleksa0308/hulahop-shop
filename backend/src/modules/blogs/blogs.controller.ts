@@ -14,9 +14,9 @@ import { BlogsService } from './blogs.service';
 import { CreateBlogsInput } from './dto/create-blogs.input';
 import { UpdateBlogsInput } from './dto/update-blogs.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
-import { CurrentUser } from 'src/commons';
+import { CurrentUser } from '../../commons';
 import { CurrentUserDto } from '../auth/dto/current-user.dto';
 import { SkipAuth } from '../../core/guards/auth-guard';
 

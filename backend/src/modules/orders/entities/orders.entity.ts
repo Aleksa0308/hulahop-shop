@@ -7,11 +7,11 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { MaxLength, IsEnum, IsInt, IsNotEmpty } from 'class-validator';
-import { OrderProducts } from 'src/modules/order-products/entities/order-products.entity';
-import { ReturnProducts } from 'src/modules/return-products/entities/return-products.entity';
-import { OrderAddresses } from 'src/modules/order-addresses/entities/order-addresses.entity';
+import { OrderProducts } from '../../../modules/order-products/entities/order-products.entity';
+import { ReturnProducts } from '../../../modules/return-products/entities/return-products.entity';
+import { OrderAddresses } from '../../../modules/order-addresses/entities/order-addresses.entity';
 import { OrderStatus } from '../../../commons/enum';
-import { Users } from 'src/modules/users/entities/users.entity';
+import { Users } from '../../../modules/users/entities/users.entity';
 
 @Entity('orders', { schema: 'hulahop_dev' })
 export class Orders {

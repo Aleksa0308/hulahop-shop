@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { AbstractService } from 'src/commons';
+import { AbstractService } from '../../commons';
 import { associateBlogsRepository } from './repository/associate_blogs.repository';
 import { CreateAssociateBlogsInput } from './dto/create-associate-blog.input';
 import { AssociateBlogs } from './entities/associate_blogs.entity';

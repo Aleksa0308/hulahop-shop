@@ -1,8 +1,8 @@
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { IsBoolean, MaxLength, ValidateIf, IsInt } from 'class-validator';
-import { ProductVariants } from 'src/modules/product-variants/entities/product-variants.entity';
-import { AssociateProducts } from 'src/modules/associate-products/entities/associate-products.entity';
-import { AssociateProductColors } from 'src/modules/associate-product-colors/entities/associate-product-colors.entity';
+import { ProductVariants } from '../../../modules/product-variants/entities/product-variants.entity';
+import { AssociateProducts } from '../../../modules/associate-products/entities/associate-products.entity';
+import { AssociateProductColors } from '../../../modules/associate-product-colors/entities/associate-product-colors.entity';
 
 @Entity('colors', { schema: 'hulahop_dev' })
 export class Colors {

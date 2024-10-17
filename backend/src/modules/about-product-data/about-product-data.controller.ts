@@ -14,7 +14,7 @@ import {
 } from '@nestjs/common';
 import { AboutProductDataService } from './about-product-data.service';
 import { CreateAboutProductDataInput } from './dto/create-about-product-data.dto';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { UpdateAboutProductDataInput } from './dto/update-about-product-data.dto';

@@ -14,7 +14,7 @@ import {
 import { AboutPageSliderService } from './about-page-slider.service';
 import { CreateAboutPageSliderInput } from './dto/create-about-page-slider.dto';
 import { UpdateAboutPageSliderInput } from './dto/update-about-page-slider.dto';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { SkipAuth } from '../../core/guards/auth-guard';

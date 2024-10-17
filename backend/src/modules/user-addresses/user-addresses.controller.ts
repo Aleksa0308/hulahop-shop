@@ -15,7 +15,7 @@ import { UserAddressesService } from './user-addresses.service';
 import { CreateUserAddressesInput } from './dto/create-user-addresses.input';
 import { UpdateUserAddressesInput } from './dto/update-user-addresses.input';
 import { ApiBasicAuth, ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 
 @ApiTags('user_addresses')

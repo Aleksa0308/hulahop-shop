@@ -13,7 +13,7 @@ import { ProductVariantsService } from './product-variants.service';
 import { CreateProductVariantsInput } from './dto/create-product-variants.input';
 import { UpdateProductVariantsInput } from './dto/update-product-variants.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { ParseIntPipe } from '@nestjs/common/pipes';
 

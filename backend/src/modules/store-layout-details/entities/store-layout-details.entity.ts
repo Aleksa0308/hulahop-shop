@@ -10,7 +10,7 @@ import { IsBoolean, MaxLength, ValidateIf, IsInt } from 'class-validator';
 import { Users } from '../../users/entities/users.entity';
 import { Images } from '../../images/entities/images.entity';
 import { StoreLayoutSliders } from '../../store-layout-sliders/entities/store-layout-sliders.entity';
-import { AssociateBlogs } from 'src/modules/associate_blogs/entities/associate_blogs.entity';
+import { AssociateBlogs } from '../../../modules/associate_blogs/entities/associate_blogs.entity';
 
 @Entity('store_layout_details', { schema: 'hulahop_dev' })
 export class StoreLayoutDetails {

@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty } from 'class-validator';
-import { Match } from 'src/commons';
+import { Match } from '../../../commons';
 
 export class UpdatePasswordInput {
   id: number;

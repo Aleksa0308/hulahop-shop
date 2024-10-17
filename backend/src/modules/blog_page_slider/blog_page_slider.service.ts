@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { AbstractService } from 'src/commons';
+import { AbstractService } from '../../commons';
 import { blogPageSliderRepository } from './repository/blog_page_slider.repository';
 import { CreateBlogPageSliderInput } from './dto/create_blog_page_slider.dto';
 import { BlogPageSlider } from './entities/blog_page_slider.entity';

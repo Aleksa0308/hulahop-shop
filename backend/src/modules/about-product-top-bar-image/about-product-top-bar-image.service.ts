@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateAboutProductTopBarImageDto } from './dto/create-about-product-top-bar-image.dto';
 import { UpdateAboutProductTopBarImageDto } from './dto/update-about-product-top-bar-image.dto';
 import { aboutProductTopBarImageRepository } from './repository/about-product-top-bar-image.repository';
-import { AbstractService } from 'src/commons';
+import { AbstractService } from '../../commons';
 
 @Injectable()
 export class AboutProductTopBarImageService extends AbstractService {

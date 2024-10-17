@@ -7,14 +7,14 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { MaxLength, ValidateIf, IsInt } from 'class-validator';
-import { Products } from 'src/modules/products/entities/products.entity';
-import { Users } from 'src/modules/users/entities/users.entity';
-import { CartProducts } from 'src/modules/cart-products/entities/cart-products.entity';
-import { OrderProducts } from 'src/modules/order-products/entities/order-products.entity';
-import { ReturnProducts } from 'src/modules/return-products/entities/return-products.entity';
-import { Colors } from 'src/modules/colors/entities/colors.entity';
-import { AssociateProductColors } from 'src/modules/associate-product-colors/entities/associate-product-colors.entity';
-import { WishList } from 'src/modules/wish-list/entities/wish-list.entity';
+import { Products } from '../../../modules/products/entities/products.entity';
+import { Users } from '../../../modules/users/entities/users.entity';
+import { CartProducts } from '../../../modules/cart-products/entities/cart-products.entity';
+import { OrderProducts } from '../../../modules/order-products/entities/order-products.entity';
+import { ReturnProducts } from '../../../modules/return-products/entities/return-products.entity';
+import { Colors } from '../../../modules/colors/entities/colors.entity';
+import { AssociateProductColors } from '../../../modules/associate-product-colors/entities/associate-product-colors.entity';
+import { WishList } from '../../../modules/wish-list/entities/wish-list.entity';
 import { ProductReview } from '../../product-review/entities/product-review.entity';
 
 @Entity('associate_products', { schema: 'hulahop_dev' })

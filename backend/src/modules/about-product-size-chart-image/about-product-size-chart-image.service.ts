@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateAboutProductSizeChartImageDto } from './dto/create-about-product-size-chart-image.dto';
 import { UpdateAboutProductSizeChartImageDto } from './dto/update-about-product-size-chart-image.dto';
 import { aboutProductDataSizeChartImageRepository } from './repository/about-product-size-chart-image.repository';
-import { AbstractService } from 'src/commons';
+import { AbstractService } from '../../commons';
 
 @Injectable()
 export class AboutProductSizeChartImageService extends AbstractService {

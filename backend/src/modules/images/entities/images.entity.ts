@@ -1,18 +1,18 @@
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { MaxLength } from 'class-validator';
 import { Users } from '../../users/entities/users.entity';
-import { SubCategories } from 'src/modules/sub-categories/entities/sub-categories.entity';
-import { Products } from 'src/modules/products/entities/products.entity';
-import { ProductVariants } from 'src/modules/product-variants/entities/product-variants.entity';
-import { Categories } from 'src/modules/categories/entities/categories.entity';
-import { Blogs } from 'src/modules/blogs/entities/blogs.entity';
-import { AssociateUserDetails } from 'src/modules/associate-user-details/entities/associate-user-details.entity';
-import { AssociateProducts } from 'src/modules/associate-products/entities/associate-products.entity';
-import { StoreLayoutSliders } from 'src/modules/store-layout-sliders/entities/store-layout-sliders.entity';
-import { StoreLayoutDetails } from 'src/modules/store-layout-details/entities/store-layout-details.entity';
-import { AssociateImages } from 'src/modules/associate-images/entities/associate-images.entity';
-import { ShopSlider } from 'src/modules/shop-slider/entities/shop-slider.entity';
-import { AboutProductBottomBarImage } from 'src/modules/about-product-bottom-bar-image/entities/about-product-bottom-bar-image.entity';
+import { SubCategories } from '../../../modules/sub-categories/entities/sub-categories.entity';
+import { Products } from '../../../modules/products/entities/products.entity';
+import { ProductVariants } from '../../../modules/product-variants/entities/product-variants.entity';
+import { Categories } from '../../../modules/categories/entities/categories.entity';
+import { Blogs } from '../../../modules/blogs/entities/blogs.entity';
+import { AssociateUserDetails } from '../../../modules/associate-user-details/entities/associate-user-details.entity';
+import { AssociateProducts } from '../../../modules/associate-products/entities/associate-products.entity';
+import { StoreLayoutSliders } from '../../../modules/store-layout-sliders/entities/store-layout-sliders.entity';
+import { StoreLayoutDetails } from '../../../modules/store-layout-details/entities/store-layout-details.entity';
+import { AssociateImages } from '../../../modules/associate-images/entities/associate-images.entity';
+import { ShopSlider } from '../../../modules/shop-slider/entities/shop-slider.entity';
+import { AboutProductBottomBarImage } from '../../../modules/about-product-bottom-bar-image/entities/about-product-bottom-bar-image.entity';
 
 @Entity('images', { schema: 'hulahop_dev' })
 export class Images {

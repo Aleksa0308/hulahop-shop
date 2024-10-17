@@ -16,7 +16,7 @@ import { CreateAnnouncementsInput } from './dto/create-announcements.input';
 import { UpdateAnnouncementsInput } from './dto/update-announcements.input';
 import { ApiBasicAuth, ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 
 @ApiTags('announcements')
 @ApiBearerAuth()

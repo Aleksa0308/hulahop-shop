@@ -1,5 +1,5 @@
 import { MaxLength, ValidateIf } from 'class-validator';
-import { Images } from 'src/modules/images/entities/images.entity';
+import { Images } from '../../../modules/images/entities/images.entity';
 import {
   Column,
   Entity,

@@ -8,10 +8,10 @@ import {
   HttpStatus,
 } from '@nestjs/common';
 import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response, Request } from 'express';
 import { AssociateService } from './associate.service';
-import { UserTypes } from 'src/commons/enum';
+import { UserTypes } from '../../commons/enum';
 import { SkipAuth } from '../../core/guards/auth-guard';
 
 @ApiTags('associates')

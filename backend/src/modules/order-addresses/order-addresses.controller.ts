@@ -16,7 +16,7 @@ import { CreateOrderAddressesInput } from './dto/create-order-addresses.input';
 import { UpdateOrderAddressesInput } from './dto/update-order-addresses.input';
 import { ApiBasicAuth, ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 
 @ApiTags('order_addresses')
 @ApiBearerAuth()

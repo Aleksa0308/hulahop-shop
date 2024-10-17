@@ -16,7 +16,7 @@ import { CreateShopSliderInput } from './dto/create-shop-slider.input';
 import { UpdateShopSliderInput } from './dto/update-shop-slider.input';
 import { ApiBasicAuth, ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { SkipAuth } from '../../core/guards/auth-guard';
 
 @ApiTags('shop_slider')

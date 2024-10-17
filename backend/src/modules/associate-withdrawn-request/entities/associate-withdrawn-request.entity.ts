@@ -6,7 +6,7 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { IsBoolean, MaxLength, ValidateIf, IsInt } from 'class-validator';
-import { Users } from 'src/modules/users/entities/users.entity';
+import { Users } from '../../../modules/users/entities/users.entity';
 
 @Entity('associate_withdrawn_request', { schema: 'hulahop_dev' })
 export class AssociateWithdrawnRequest {

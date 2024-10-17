@@ -19,7 +19,7 @@ import { TokenTime } from '../../commons/constant';
 import { UserSessionService } from '../user-session/user-session.service';
 import { ForgotPasswordInput } from './dto/forgot-password.input';
 import { MoreThan } from 'typeorm';
-import { MailerService } from 'src/providers/mailer/mailer.service';
+import { MailerService } from '../../providers/mailer/mailer.service';
 
 @Injectable()
 export class AuthService {

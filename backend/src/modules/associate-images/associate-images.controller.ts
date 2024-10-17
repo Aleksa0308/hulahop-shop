@@ -16,10 +16,10 @@ import { AssociateImagesService } from './associate-images.service';
 import { CreateAssociateImagesInput } from './dto/create-associate-images.input';
 import { UpdateAssociateImagesInput } from './dto/update-associate-images.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { CurrentUser } from 'src/commons';
+import { CurrentUser } from '../../commons';
 import { UserSession } from '../user-session/entities/user-session.entity';
 import { CurrentUserDto } from '../auth/dto/current-user.dto';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { DeleteAssociateImagesInput } from './dto/delete-associate-images.input';
 

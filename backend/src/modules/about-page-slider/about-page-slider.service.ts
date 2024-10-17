@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateAboutPageSliderInput } from './dto/create-about-page-slider.dto';
 import { aboutPageSliderRepository } from './repository/about-page-slider.repository';
-import { AbstractService } from 'src/commons';
+import { AbstractService } from '../../commons';
 import { AboutPageSlider } from './entities/about-page-slider.entity';
 import { UpdateAboutPageSliderInput } from './dto/update-about-page-slider.dto';
 

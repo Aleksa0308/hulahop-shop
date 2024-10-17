@@ -1,5 +1,5 @@
 import { ApiPropertyOptional } from '@nestjs/swagger';
-import { OrderStatus } from 'src/commons/enum';
+import { OrderStatus } from '../../../commons/enum';
 
 export class FilterInputDto {
   @ApiPropertyOptional()

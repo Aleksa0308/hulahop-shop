@@ -7,7 +7,7 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { AboutProductData } from '../../about-product-data/entities/about-product-data.entity';
-import { Images } from 'src/modules/images/entities/images.entity';
+import { Images } from '../../../modules/images/entities/images.entity';
 
 @Entity('about_product_top_bar_image', { schema: 'hulahop_dev' })
 export class AboutProductTopBarImage {

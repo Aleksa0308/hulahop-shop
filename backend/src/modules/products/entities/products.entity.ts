@@ -7,9 +7,9 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { IsBoolean, MaxLength, ValidateIf, IsInt } from 'class-validator';
-import { Images } from 'src/modules/images/entities/images.entity';
-import { ProductVariants } from 'src/modules/product-variants/entities/product-variants.entity';
-import { AssociateProducts } from 'src/modules/associate-products/entities/associate-products.entity';
+import { Images } from '../../../modules/images/entities/images.entity';
+import { ProductVariants } from '../../../modules/product-variants/entities/product-variants.entity';
+import { AssociateProducts } from '../../../modules/associate-products/entities/associate-products.entity';
 import { Categories } from '../../categories/entities/categories.entity';
 import { SubCategories } from '../../sub-categories/entities/sub-categories.entity';
 

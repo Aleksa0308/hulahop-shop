@@ -11,8 +11,8 @@ import {
   UpdateOrderStatusInput,
 } from './dto/create-orders.input';
 import { UpdateOrdersInput } from './dto/update-orders.input';
-import { generateSku } from 'src/commons';
-import { dataSource } from 'src/core/data-source';
+import { generateSku } from '../../commons';
+import { dataSource } from '../../core/data-source';
 import { OrderProducts } from '../order-products/entities/order-products.entity';
 import { OrderAddresses } from '../order-addresses/entities/order-addresses.entity';
 import { ProductSubVariantsService } from '../product-sub-variants/product-sub-variants.service';
@@ -20,10 +20,10 @@ import { CartsService } from '../carts/carts.service';
 import { Carts } from '../carts/entities/carts.entity';
 import { ProductSubVariants } from '../product-sub-variants/entities/product-sub-variants.entity';
 import { FilterInputDto } from './dto/filter-dto-input';
-import { UserTypes } from 'src/commons/enum';
-import { ORDER_STATUS } from 'src/commons/constant';
+import { UserTypes } from '../../commons/enum';
+import { ORDER_STATUS } from '../../commons/constant';
 import { Users } from '../users/entities/users.entity';
-import { MailerService } from 'src/providers/mailer/mailer.service';
+import { MailerService } from '../../providers/mailer/mailer.service';
 
 @Injectable()
 export class OrdersService extends AbstractService {

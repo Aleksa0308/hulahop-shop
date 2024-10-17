@@ -14,7 +14,7 @@ import { ProductsService } from './products.service';
 import { CreateProductsInput } from './dto/create-products.input';
 import { UpdateProductsInput } from './dto/update-products.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { ParseIntPipe } from '@nestjs/common/pipes';
 import { filterInputDto } from './dto/filter-input.dto';

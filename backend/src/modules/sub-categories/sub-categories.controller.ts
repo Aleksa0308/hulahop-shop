@@ -13,7 +13,7 @@ import { SubCategoriesService } from './sub-categories.service';
 import { CreateSubCategoriesInput } from './dto/create-sub-categories.input';
 import { UpdateSubCategoriesInput } from './dto/update-sub-categories.input';
 import { ApiBasicAuth, ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { SkipAuth } from '../../core/guards/auth-guard';
 

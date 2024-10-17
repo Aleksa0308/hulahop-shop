@@ -14,7 +14,7 @@ import { CreateAboutProductBottomBarImageInput } from './dto/create-about-produc
 import { UpdateAboutProductBottomBarImageInput } from './dto/update-about-product-bottom-bar-image.input';
 import { ApiBasicAuth, ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { Response } from 'express';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 
 @ApiTags('about_product_bottom_bar_image')
 @ApiBearerAuth()

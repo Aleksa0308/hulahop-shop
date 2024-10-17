@@ -4,7 +4,7 @@ import { inquiriesRepository } from './repository/inquiries.repository';
 import { Inquiries } from './entities/inquiries.entity';
 import { CreateInquiriesInput } from './dto/create-inquiries.input';
 import { UpdateInquiriesInput } from './dto/update-inquiries.input';
-import { MailerService } from 'src/providers/mailer/mailer.service';
+import { MailerService } from '../../providers/mailer/mailer.service';
 
 @Injectable()
 export class InquiriesService extends AbstractService {

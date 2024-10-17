@@ -1,6 +1,6 @@
 import { ValidateIf } from 'class-validator';
-import { Categories } from 'src/modules/categories/entities/categories.entity';
-import { SubCategories } from 'src/modules/sub-categories/entities/sub-categories.entity';
+import { Categories } from '../../../modules/categories/entities/categories.entity';
+import { SubCategories } from '../../../modules/sub-categories/entities/sub-categories.entity';
 import {
   Column,
   Entity,
@@ -10,8 +10,8 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { AboutProductSizeChartImage } from '../../about-product-size-chart-image/entities/about-product-size-chart-image.entity';
-import { AboutProductTopBarImage } from 'src/modules/about-product-top-bar-image/entities/about-product-top-bar-image.entity';
-import { AboutProductBottomBarImage } from 'src/modules/about-product-bottom-bar-image/entities/about-product-bottom-bar-image.entity';
+import { AboutProductTopBarImage } from '../../../modules/about-product-top-bar-image/entities/about-product-top-bar-image.entity';
+import { AboutProductBottomBarImage } from '../../../modules/about-product-bottom-bar-image/entities/about-product-bottom-bar-image.entity';
 
 @Entity('about_product_data', { schema: 'hulahop_dev' })
 export class AboutProductData {

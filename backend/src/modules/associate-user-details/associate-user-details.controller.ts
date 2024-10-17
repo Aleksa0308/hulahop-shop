@@ -14,7 +14,7 @@ import { AssociateUserDetailsService } from './associate-user-details.service';
 import { CreateAssociateUserDetailsInput } from './dto/create-associate-user-details.input';
 import { UpdateAssociateUserDetailsInput } from './dto/update-associate-user-details.input';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
-import { baseController } from 'src/core/baseController';
+import { baseController } from '../../core/baseController';
 import { Response } from 'express';
 import { SkipAuth } from '../../core/guards/auth-guard';
 @ApiTags('associate_user_details')

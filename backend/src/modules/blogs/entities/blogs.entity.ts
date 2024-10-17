@@ -6,8 +6,8 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { IsBoolean, MaxLength, ValidateIf, IsInt } from 'class-validator';
-import { Users } from 'src/modules/users/entities/users.entity';
-import { Images } from 'src/modules/images/entities/images.entity';
+import { Users } from '../../../modules/users/entities/users.entity';
+import { Images } from '../../../modules/images/entities/images.entity';
 
 @Entity('blogs', { schema: 'hulahop_dev' })
 export class Blogs {
