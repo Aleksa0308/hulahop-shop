@@ -16,7 +16,7 @@ import { UpdateAssociateUserDetailsInput } from './dto/update-associate-user-det
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { baseController } from 'src/core/baseController';
 import { Response } from 'express';
-import { SkipAuth } from 'src/core/guards/auth-guard';
+import { SkipAuth } from '../../core/guards/auth-guard';
 @ApiTags('associate_user_details')
 @ApiBearerAuth()
 @Controller('associate_user_details')

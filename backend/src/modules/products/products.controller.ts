@@ -19,7 +19,7 @@ import { Response } from 'express';
 import { ParseIntPipe } from '@nestjs/common/pipes';
 import { filterInputDto } from './dto/filter-input.dto';
 import { masterFilterInputDto } from './dto/master-filter.dto';
-import { SkipAuth } from 'src/core/guards/auth-guard';
+import { SkipAuth } from '../../core/guards/auth-guard';
 @ApiTags('products')
 @ApiBearerAuth()
 @Controller('products')

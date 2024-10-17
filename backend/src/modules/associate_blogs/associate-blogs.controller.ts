@@ -17,7 +17,7 @@ import { Response } from 'express';
 import { CurrentUser } from 'src/commons';
 import { CurrentUserDto } from '../auth/dto/current-user.dto';
 import { baseController } from 'src/core/baseController';
-import { SkipAuth } from 'src/core/guards/auth-guard';
+import { SkipAuth } from '../../core/guards/auth-guard';
 import { UpdateAssociateBlogsInput } from './dto/update-associate-blog.input';
 
 @ApiTags('associate-blogs')

@@ -1,6 +1,6 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { MailerService } from './mailer.service';
-import { SkipAuth } from 'src/core/guards/auth-guard';
+import { SkipAuth } from '../../core/guards/auth-guard';
 import { Template } from './templates';
 
 @Controller('mailer')

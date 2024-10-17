@@ -18,7 +18,7 @@ import { baseController } from 'src/core/baseController';
 import { Response } from 'express';
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { UpdateAboutProductDataInput } from './dto/update-about-product-data.dto';
-import { SkipAuth } from 'src/core/guards/auth-guard';
+import { SkipAuth } from '../../core/guards/auth-guard';
 import { GetAboutProductFilterInputDto } from './dto/get-about-product-filter-input.dto';
 
 @ApiTags('about_product_data')

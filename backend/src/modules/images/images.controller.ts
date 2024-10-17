@@ -18,7 +18,7 @@ import { diskStorage } from 'multer';
 import { baseController } from 'src/core/baseController';
 import { Response, Request } from 'express';
 import * as fs from 'fs';
-import { SkipAuth } from 'src/core/guards/auth-guard';
+import { SkipAuth } from '../../core/guards/auth-guard';
 import { v4 as uuid } from 'uuid';
 
 @ApiTags('images')

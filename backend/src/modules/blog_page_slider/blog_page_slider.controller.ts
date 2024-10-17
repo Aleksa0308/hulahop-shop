@@ -15,7 +15,7 @@ import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { BlogPageSliderService } from './blog_page_slider.service';
 import { CreateBlogPageSliderInput } from './dto/create_blog_page_slider.dto';
 import { baseController } from 'src/core/baseController';
-import { SkipAuth } from 'src/core/guards/auth-guard';
+import { SkipAuth } from '../../core/guards/auth-guard';
 import { Response } from 'express';
 import { UpdateBlogPageSliderInput } from './dto/update_blog_page_slider.dto';
 
